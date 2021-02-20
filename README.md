@@ -1,4 +1,4 @@
-# Getiing start
+# Getting start
 
 ## initial step
 
