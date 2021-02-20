@@ -1,5 +1,13 @@
 # Getting start
 
+## about project
+This is a simple project, working at the clean architecture.
+
+features
+1. Login
+2. sign up
+3. forget password
+
 ## initial step
 
 for testing forget password. 
