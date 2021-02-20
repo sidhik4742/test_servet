@@ -1,6 +1,6 @@
-## Getiing start
+# Getiing start
 
-# initial step
+## initial step
 
 for testing forget password. 
 
@@ -10,6 +10,6 @@ added your credentials like email id and password.
 
 2.save it.
 
-# run script
+## run script
 
 1. open terminal and type  npm run dev.
