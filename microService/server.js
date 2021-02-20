@@ -7,6 +7,7 @@ const {createMongoDbConnection} = require('../Db/config');
 
 const app = express();
 
+app.use(express.static(__dirname + '/public'));
 /**
  * ? =============== MIDDLEWARE==========
  */
@@ -14,7 +15,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use(express.static(__dirname + '/public'));
+
+// app.use(validator());
 
 /**
  * ? =============== ROUTERS==========

@@ -1,3 +1,8 @@
-const {userLogin} = require('./userCredential');
+const {
+  userLogin,
+  userSignup,
+  userForgetPasswrd,
+  changePassword,
+} = require('./userCredential');
 
-module.exports = {userLogin};
+module.exports = {userLogin, userSignup, userForgetPasswrd, changePassword};
